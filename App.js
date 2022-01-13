@@ -8,12 +8,13 @@ import SerieTop9 from './componentes/SerieTop9';
 import SerieTop5 from './componentes/SerieTop5';
 import SerieTop4 from "./componentes/SerieTop4";
 import SerieTop3 from "./componentes/SerieTop3";
-import SerieTop2 from "./componentes/SerieTop02.JS";
+import SerieTop2 from "./componentes/SerieTop02";
+import SerieTop1 from "./componentes/SerieTop1";
 
 // eslint-disable-next-line import/no-anonymous-default-export
   export default (props) => (
     <div className="App">
-        <div>
+        <div className=" Series">
             <PrimeiroComponente title = "Top 10 Melhores series de 2021"/>
             <SerieTop10 title = "10. Dopesick" descricao ="A décima posição vai para uma série ainda bem pouco badalada por aqui, porque estreou no fim do ano. Dopesick conta a história do começo da epidemia de opioides nos Estados Unidos que já matou mais de 500 mil pessoas"/>
             <SerieTop9 title = "09. Maid" descricao = "A nona posição tem uma minissérie dramática sobre uma mulher que trabalha como faxineira para tentar pagar as contas e cuidar da filhinha. “Maid” conseguiu uma raridade: ela é muito elogiada pela crítica, mas também bombou, e terminou 2021 como uma das séries mais buscadas do ano no Google." />
@@ -24,6 +25,7 @@ import SerieTop2 from "./componentes/SerieTop02.JS";
             <SerieTop4 title = "04. Hacks" descricao = "Uma comédia sobre duas comediantes tem o honroso quarto lugar do ano. Uma veterana meio que em fim de carreira e uma jovem promissora que acaba de ser cancelada na internet que se juntam meio a contragosto porque precisam se ajudar"/>
             <SerieTop3 title = "03. Only murders in the building" descricao = "A série se passa num edifício badalado em Nova York (até o Sting mora lá) e conta a história de três vizinhos viciados em podcasts. Eles decidem investigar um crime depois que a polícia resolve o caso dizendo que foi suicídio."/>
             <SerieTop2 title = "02. Round 6" descricao = "A série sul-coreana é sobre um monte de gente desempregada e endividada que aceita participar de brincadeiras mortais com a promessa de que quem sair vivo da disputa ganha US$ 40 milhões" />
+            <SerieTop1 title = "01. Ted lasso" descricao = "Faz sentido uma série tão good vibes fazer tanto sucesso e ficar no topo da nossa lista. Em tempos tão difíceis, tudo que a gente precisa é de um bigodudo tratando os jogadores como se todos fossem uma família." />
           </div>
     </div>
 )
