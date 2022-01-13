@@ -7,6 +7,7 @@ import SerieTop8 from "./componentes/SerieTop8";
 import SerieTop9 from './componentes/SerieTop9';
 import SerieTop5 from './componentes/SerieTop5';
 import SerieTop4 from "./componentes/SerieTop4";
+import SerieTop3 from "./componentes/SerieTop3";
 
 // eslint-disable-next-line import/no-anonymous-default-export
   export default (props) => (
@@ -19,7 +20,8 @@ import SerieTop4 from "./componentes/SerieTop4";
             <SerieTop7 title = "07. Wandavision" descricao = "Wandavision mostra o casal de heróis Wanda e Visão vivendo uma vida de sitcom americana. Em cada episódio eles aparecem como protagonistas de uma série de comédia de uma década diferente. É bem divertido, mas tem um mistério por trás." />
             <SerieTop6 title = "06. Mare of the Easttown" descricao = "Essa minissérie conta a história de uma detetive de uma cidadezinha americana da Pensilvânia que investiga um assassinato e luta para manter a vida dela nos eixos"/>
             <SerieTop5 title = "05. The white lotus" descricao = "Essa comédia dramática conta em sete episódios a história da relação entre hóspedes e staff de um resort no Havaí, focando na relação entre eles durante uma semana de estadia. As situações são muito bem desenvolvidas, as tensões vão se acumulando. Você assiste sempre com aquela sensação de que algo vai dar errado."/>
-            <SerieTop4 title = "Hacks" descricao = "Uma comédia sobre duas comediantes tem o honroso quarto lugar do ano. Uma veterana meio que em fim de carreira e uma jovem promissora que acaba de ser cancelada na internet que se juntam meio a contragosto porque precisam se ajudar"/>
+            <SerieTop4 title = "04. Hacks" descricao = "Uma comédia sobre duas comediantes tem o honroso quarto lugar do ano. Uma veterana meio que em fim de carreira e uma jovem promissora que acaba de ser cancelada na internet que se juntam meio a contragosto porque precisam se ajudar"/>
+            <SerieTop3 title = "03. Only murders in the building" descricao = "A série se passa num edifício badalado em Nova York (até o Sting mora lá) e conta a história de três vizinhos viciados em podcasts. Eles decidem investigar um crime depois que a polícia resolve o caso dizendo que foi suicídio."/>
           </div>
     </div>
 )
