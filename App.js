@@ -8,6 +8,7 @@ import SerieTop9 from './componentes/SerieTop9';
 import SerieTop5 from './componentes/SerieTop5';
 import SerieTop4 from "./componentes/SerieTop4";
 import SerieTop3 from "./componentes/SerieTop3";
+import SerieTop2 from "./componentes/SerieTop02.JS";
 
 // eslint-disable-next-line import/no-anonymous-default-export
   export default (props) => (
@@ -22,6 +23,7 @@ import SerieTop3 from "./componentes/SerieTop3";
             <SerieTop5 title = "05. The white lotus" descricao = "Essa comédia dramática conta em sete episódios a história da relação entre hóspedes e staff de um resort no Havaí, focando na relação entre eles durante uma semana de estadia. As situações são muito bem desenvolvidas, as tensões vão se acumulando. Você assiste sempre com aquela sensação de que algo vai dar errado."/>
             <SerieTop4 title = "04. Hacks" descricao = "Uma comédia sobre duas comediantes tem o honroso quarto lugar do ano. Uma veterana meio que em fim de carreira e uma jovem promissora que acaba de ser cancelada na internet que se juntam meio a contragosto porque precisam se ajudar"/>
             <SerieTop3 title = "03. Only murders in the building" descricao = "A série se passa num edifício badalado em Nova York (até o Sting mora lá) e conta a história de três vizinhos viciados em podcasts. Eles decidem investigar um crime depois que a polícia resolve o caso dizendo que foi suicídio."/>
+            <SerieTop2 title = "02. Round 6" descricao = "A série sul-coreana é sobre um monte de gente desempregada e endividada que aceita participar de brincadeiras mortais com a promessa de que quem sair vivo da disputa ganha US$ 40 milhões" />
           </div>
     </div>
 )
