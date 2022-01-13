@@ -1,6 +1,6 @@
 import react from "react";
 
-export default function SerieTop5(props) {
+export default function SerieTop4(props) {
     return(
         <>
             <h2>{props.title}</h2>
