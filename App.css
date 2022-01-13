@@ -1,3 +1,95 @@
-.App{
-   display: flex;
+.Series{
+   grid-template-columns: repeat(2, 1fr);
+   display: grid;
+}
+
+.serie10{
+   background-color: rgba(7, 7, 7, 0.493);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+   
+}
+
+.serie9{
+   background-color: rgba(7, 7, 7, 0.493);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+.serie8{
+   background-color: rgba(7, 7, 7, 0.493);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+.serie7{
+   background-color: rgba(7, 7, 7, 0.678);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+.serie6{
+   background-color: rgba(7, 7, 7, 0.493);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+.serie5{
+   background-color: rgba(7, 7, 7, 0.493);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+.serie4{
+   background-color: rgba(7, 7, 7, 0.493);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+.serie3{
+   background-color: rgba(7, 7, 7, 0.493);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+.serie2{
+   background-color: rgba(7, 7, 7, 0.493);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+.serie1{
+   background-color: rgba(7, 7, 7, 0.651);
+   border: 3px solid white;
+   border-radius: 10px;
+   margin: 30px;
+   overflow: auto;
+}
+
+
+.title{
+   text-align: center;
+   border: 3px solid white;
+   border-radius: 10px;
+   background-color: black;
+   color: red;
+   overflow: hidden;
 }

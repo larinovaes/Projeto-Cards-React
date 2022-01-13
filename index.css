@@ -1,15 +1,8 @@
 body{
-  background-color: rgb(80, 77, 77);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.781);
   color: white;
-  
-}
-
-h1{
-  background-color: black;
-  color: red;
-  padding: 10px;
-  font-size: 20px;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  display: flex;
+  background-image:url(https://media.timeout.com/images/105851757/750/422/image.jpg);
 }
